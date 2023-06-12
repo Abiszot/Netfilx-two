@@ -1,0 +1,125 @@
+@media screen and (max-width: 725px) {
+	.home-page {
+	width: 100%;
+	height: 100%;
+	
+
+	}
+	.container {
+		max-width: 343px;
+		width: 100%;
+		min-height: 1322px;
+		
+			
+	}
+	.container__border {
+		border-radius: 24px;
+		max-width: 343px;
+		width: 100%;
+		min-height: 1074px;
+	}
+	.container__cards-top {
+		justify-content: space-around;
+		max-width: 311px;
+		width: 100%;
+		min-height: 1054px;
+		margin: 0;
+	}
+
+	.container__card {
+		display: flex;
+		justify-content: start;
+		flex-direction: column;
+		border-radius: 16px;
+		max-width: 311px;
+		width: 100%;
+		min-height: 340px;
+		margin-bottom: 1px;
+
+		.container__images-tablet {
+			display: none;
+		}
+		.container__images-desktop  {
+			display: none;
+		}
+	
+		.container__images-mobile {
+			display: flex;
+			flex-direction: column;
+			max-width: 311px;
+			width: 100%;
+			min-height: 144px;
+			border-radius: 16px 16px 0 0;
+		}
+		.container__content {
+			margin: 5px 0 0 0;
+			min-height: 168px;
+			
+		
+		.container__title-ep {
+			font-size: 18px;
+			line-height: 37px;
+			margin: 1px 1px 0 2px;
+		}
+
+		.container__text {
+			max-width: 279px;
+			width: 100%;
+			min-height: 90px;
+			font-size: 14px;
+				margin: 0px 0 0 1px;
+				line-height: 20.1px;
+				letter-spacing: -0.15px;
+		}
+		.container__btn-play {
+			margin: 6px 0 0 0;
+		}
+	}
+	}
+	.container__bottom-border {
+		max-width: 343px;
+		width: 100%;
+		min-height: 232px;
+		border-radius: 24px;
+	}
+	.container__bottom {
+		display: flex;
+		
+
+		.container__bottom-banner {
+			display: flex;
+			max-width: 311px;
+			width: 100%;
+			min-height: 200px;
+			align-items: start;
+			flex-direction: column;
+			justify-content: start;
+
+			.container__bottom-image-mobile {
+				display: flex;
+				max-width: 311px;
+				width: 100%;
+				min-height: 200px;
+			}
+			.container__bottom-image-tablet {
+				display: none;
+			}
+			.container__bottom-title {
+				top: 47px;
+				line-height: 23.7px;
+				margin: 0;
+				left: 16px;
+				
+			}
+			
+			.container__btn-bottom {
+				bottom: 48px;
+				left: 15px;
+			}
+			.container__watch-stranger-things {
+				margin: 2px 0 0 1px;
+				
+			}
+		}
+	}
+}

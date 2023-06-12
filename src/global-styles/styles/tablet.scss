@@ -1,0 +1,100 @@
+@media screen and (max-width: 1110px) {
+	.home-page {
+		width: 100%;
+	}
+
+	.container {
+		max-width: 770px;
+		width: 100%;
+		min-height: 953px;
+	}
+
+	.container__border {
+		max-width: 770px;
+		width: 100%;
+		min-height: 763px;
+	}
+	.container__cards-top {
+		flex-direction: column;
+		max-width: 722px;
+		width: 100%;
+		min-height: 716px;
+	}
+	.container__card {
+		flex-direction: row;
+		max-width: 722px;
+		width: 100%;
+		min-height: 228px;
+
+		.container__images-tablet {
+			display: block;
+			max-width: 209px;
+			width: 100%;
+			min-height: 228px;
+			border-radius: 24px 0 0 24px;
+		}
+		.container__images-desktop {
+			display: none;
+		}
+		.container__content {
+			display: flex;
+			justify-content: space-around;
+			flex-direction: column;
+			min-height: 173px;
+			margin: 0 0 1px 23px;
+
+			.container__title-ep {
+				margin: 1px 0 0 2px;
+			}
+
+			.container__text {
+				max-width: 415px;
+				width: 100%;
+				min-height: 68px;
+				margin: 12px 0 0 1px;
+				line-height: 22.4px;
+				letter-spacing: -0.14px;
+			}
+			.container__btn-play {
+				min-width: 36px;
+				margin: 6px 0 0 1px;
+			}
+			.container__watch-episode {
+				margin: 0 0 1.5px 1px;
+				letter-spacing: -0.3px;
+			}
+		}
+	}
+
+	.container__bottom-border {
+		max-width: 770px;
+		width: 100%;
+		min-height: 176px;
+	}
+
+	.container__bottom-banner {
+		max-width: 722px;
+		width: 100%;
+		min-height: 128px;
+
+		.container__bottom-image-tablet {
+			display: flex;
+			max-width: 722px;
+			width: 100%;
+		}
+		.container__bottom-image-desktop {
+			display: none;
+		}
+		.container__bottom-title {
+			margin: 0 0 1px 7px;
+		}
+		.container__btn-bottom {
+			min-height: 40px;
+		}
+
+		.container__watch-stranger-things {
+			margin: 0 0 1px 8px;
+			letter-spacing: -0.2px;
+		}
+	}
+}

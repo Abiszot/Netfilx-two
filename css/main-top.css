@@ -1,0 +1,155 @@
+.home-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #000000;
+  max-width: 100%;
+  min-height: 100%;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 1136px;
+  width: 100%;
+  min-height: 670px;
+  margin: 20px;
+}
+
+.container__border {
+  border: 1px solid #3c3c3c;
+  border-radius: 32px;
+  max-width: 1136px;
+  width: 100%;
+  min-height: 470px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container__cards-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 1088px;
+  width: 100%;
+  min-height: 422px;
+}
+
+.container__card {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 352px;
+  width: 100%;
+  min-height: 422px;
+  background-color: #1a1a1a;
+  border-radius: 24px;
+}
+.container__card .container__images-desktop {
+  max-width: 352px;
+  width: 100%;
+  min-height: 172px;
+  border-radius: 24px 24px 0 0;
+}
+.container__card .container__images-tablet {
+  display: none;
+}
+.container__card .container__images-mobile {
+  display: none;
+}
+.container__card .container__title-ep {
+  line-height: 20px;
+  font-size: 24px;
+  letter-spacing: -0.6px;
+}
+.container__card .container__text {
+  max-width: 304px;
+  width: 100%;
+  min-height: 100.5px;
+  font-size: 16px;
+  letter-spacing: -0.19px;
+  line-height: 21.2px;
+  color: #8D8D8D;
+}
+.container__card .container__btn-play {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 154px;
+  width: 100%;
+  min-height: 40px;
+  background-color: #ffffff;
+  border-radius: 444px;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 500;
+}
+.container__card .container__btn-play:hover {
+  cursor: pointer;
+  opacity: 0.7;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.container__card .container__watch-episode {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  letter-spacing: -0.21px;
+}
+.container__card .container__play-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 4.5px;
+}/*# sourceMappingURL=main-top.css.map */

@@ -1,0 +1,105 @@
+@media screen and (max-width: 1110px) {
+  .home-page {
+    width: 100%;
+  }
+  .container {
+    max-width: 770px;
+    width: 100%;
+    min-height: 953px;
+  }
+  .container__border {
+    max-width: 770px;
+    width: 100%;
+    min-height: 763px;
+  }
+  .container__cards-top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-width: 722px;
+    width: 100%;
+    min-height: 716px;
+  }
+  .container__card {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    max-width: 722px;
+    width: 100%;
+    min-height: 228px;
+  }
+  .container__card .container__images-tablet {
+    display: block;
+    max-width: 209px;
+    width: 100%;
+    min-height: 228px;
+    border-radius: 24px 0 0 24px;
+  }
+  .container__card .container__images-desktop {
+    display: none;
+  }
+  .container__card .container__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    min-height: 173px;
+    margin: 0 0 1px 23px;
+  }
+  .container__card .container__content .container__title-ep {
+    margin: 1px 0 0 2px;
+  }
+  .container__card .container__content .container__text {
+    max-width: 415px;
+    width: 100%;
+    min-height: 68px;
+    margin: 12px 0 0 1px;
+    line-height: 22.4px;
+    letter-spacing: -0.14px;
+  }
+  .container__card .container__content .container__btn-play {
+    min-width: 36px;
+    margin: 6px 0 0 1px;
+  }
+  .container__card .container__content .container__watch-episode {
+    margin: 0 0 1.5px 1px;
+    letter-spacing: -0.3px;
+  }
+  .container__bottom-border {
+    max-width: 770px;
+    width: 100%;
+    min-height: 176px;
+  }
+  .container__bottom-banner {
+    max-width: 722px;
+    width: 100%;
+    min-height: 128px;
+  }
+  .container__bottom-banner .container__bottom-image-tablet {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 722px;
+    width: 100%;
+  }
+  .container__bottom-banner .container__bottom-image-desktop {
+    display: none;
+  }
+  .container__bottom-banner .container__bottom-title {
+    margin: 0 0 1px 7px;
+  }
+  .container__bottom-banner .container__btn-bottom {
+    min-height: 40px;
+  }
+  .container__bottom-banner .container__watch-stranger-things {
+    margin: 0 0 1px 8px;
+    letter-spacing: -0.2px;
+  }
+}/*# sourceMappingURL=tablet.css.map */
